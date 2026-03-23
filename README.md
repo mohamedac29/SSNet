@@ -88,7 +88,7 @@ python test.py --train_dataset DeepCrack --test_datasets Crack500 GAPs300 --mode
 
 ## Visualizations and Performance
 <p align="center">
-  <img src="resources/CFD_visualization.jpg" alt="Qualitative results on CFD" width="900">
+  <img src="resources/Crack500_visualization.jpg" alt="Qualitative results on Crack500" width="900">
 </p>
 
 <p align="center">
