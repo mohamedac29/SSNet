@@ -2,10 +2,6 @@
 
 Semantic‑aware skip connections with dynamic kernel adaptation for accurate, real‑time crack segmentation across diverse road scenes. The repository contains training, evaluation, and utilities for reproducible experiments.
 
-<p align="center">
-  <img src="resources/ssnet.jpg" alt="SSNet overview" width="900">
-</p>
-
 ## Highlights
 - Real‑time segmentation with lightweight SSNet variants (T, S, B)
 - Semantic‑aware skip connections and dynamic kernels for fine crack details
