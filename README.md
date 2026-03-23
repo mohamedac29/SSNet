@@ -91,10 +91,6 @@ python test.py --train_dataset DeepCrack --test_datasets Crack500 GAPs300 --mode
   <img src="resources/Feature_visualization.jpg" alt="Feature maps across SSNet pipeline" width="900">
 </p>
 
-<p align="center">
-  <img src="resources/tensorrt.jpg" alt="Throughput and accuracy with TensorRT" width="750">
-</p>
-
 ## Viewing Results
 - Checkpoints: best model weights are saved in `checkpoints/`
 - Logs and plots: numerical results, CSV summaries, PR curves, and efficiency plots are saved in `results/`
