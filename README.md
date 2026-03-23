@@ -108,8 +108,5 @@ tensorboard --logdir results
 ```
 - Weights & Biases: when enabled, results appear under your W&B project
 
-## Citation
-If you use SSNet in your research, please cite the corresponding paper (citation to be added).
-
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
