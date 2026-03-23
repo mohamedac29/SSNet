@@ -4,7 +4,6 @@ from collections import OrderedDict
 from models.U_Net import U_Net
 from models.UNeXt import UNext
 from models.SegNet import SegNet
-from models.unetsmall import UNetSmall
 from models.deepcrack import DeepCrack
 from models.SSNet import SSNet_T, SSNet_S, SSNet_M
 from models.LECSFormer import LECSFormer
@@ -13,7 +12,7 @@ from models.hybrid_segmentor import HybridSegmentor
 # A model registry that maps model names to their respective classes
 MODEL_REGISTRY = {
     "U_Net": U_Net,  "UNeXt": UNext, "SegNet": SegNet,
-    "unet_small": UNetSmall, "deepcrack": DeepCrack,
+     "deepcrack": DeepCrack,
      "SSNet_T": SSNet_T, "SSNet_S": SSNet_S, "SSNet_M": SSNet_M,
     "LECSFormer": LECSFormer, "HybridSegmentor": HybridSegmentor}
 
