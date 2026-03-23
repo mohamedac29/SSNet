@@ -225,8 +225,6 @@ class UNext(nn.Module):
 
         self.final = nn.Conv2d(16, num_classes, kernel_size=1)
 
-        self.soft = nn.Softmax(dim=1)
-
     def forward(self, x):
 
         B = x.shape[0]
@@ -357,8 +355,6 @@ class UNext_S(nn.Module):
         self.dbn4 = nn.BatchNorm2d(8)
 
         self.final = nn.Conv2d(8, num_classes, kernel_size=1)
-
-        self.soft = nn.Sigmoid()
 
     def forward(self, x):
 
